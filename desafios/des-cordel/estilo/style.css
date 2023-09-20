@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'croissant';
+    src: url('fontes/');
+}
+
+:root{
+    --var1: ;
+    --var2: ;
+}
