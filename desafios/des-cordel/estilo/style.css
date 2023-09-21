@@ -2,10 +2,20 @@
 
 @font-face {
     font-family: 'croissant';
-    src: url('fontes/');
+    src: url(../fontes/CroissantOne-Regular.ttf) format(truetype);
 }
 
 :root{
-    --var1: ;
-    --var2: ;
+    --cor1: #0000;
+    --cor2: #ffffff;
+
+    --fonte-titulo: Arial normal ;
+    --fonte-poesia: 'croissant' cursive;
+    --fonte-texto: Arial, Verdana, Helvetica, sans-serif;   
 }
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
