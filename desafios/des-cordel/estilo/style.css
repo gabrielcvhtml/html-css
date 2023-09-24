@@ -5,6 +5,11 @@
     src: url(/desafios/des-cordel/fontes/PassionOne-Regular.ttf) format(truetype);
 }
 
+@font-face {
+    font-family: 'sriracha';
+    src: url(/desafios/des-cordel/fontes/Sriracha-Regular.ttf);
+}
+
 /*CABEÇA*/
 
 *{
@@ -18,5 +23,12 @@ header{
 }
 
 header > h1{
-    font-family: passion, Arial, Helvetica, sans-serif;
+    font-family: 'passion', Arial,monospace, Helvetica, sans-serif;
+    font-size: 3.5em;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
