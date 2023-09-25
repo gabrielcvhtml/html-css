@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'sriracha';
-    src: url(/desafios/des-cordel/fontes/Sriracha-Regular.ttf);
+    src: url(/desafios/des-cordel/fontes/Sriracha-Regular.ttf) format(truetype);
 }
 
 /*CABEÇA*/
@@ -15,20 +15,4 @@
 *{
     margin: 0px;
     padding: 0px;
-}
-
-header{
-    background-color: black;
-    color: white
-}
-
-header > h1{
-    font-family: 'passion', Arial,monospace, Helvetica, sans-serif;
-    font-size: 3.5em;
-}
-
-nav > a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
