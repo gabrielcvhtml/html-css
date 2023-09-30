@@ -1,6 +1,51 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: 'croissant';
+    src: url(/desafios/des-cordel/fontes/CroissantOne-Regular.ttf) format(truetype);
 }
+
+@font-face {
+    font-family: 'passionone';
+    src: url(/desafios/des-cordel/fontes/PassionOne-Regular.ttf) format(truetype); 
+}
+
+@font-face {
+    font-family: 'sriracha';
+    src: url(/desafios/des-cordel/fontes/Sriracha-Regular.ttf) format(truetype);
+}
+
+:root{
+    --fonte-poema: 'sriracha', cursive, sans-serif;
+    --fonte-titulo: 'passionone', arial, sans-serif;
+    --fonte-reserva: 'croissant', arial, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+/*header*/
+
+header{
+    background-color: black;
+    color: white;
+}
+
+header > h1{
+    font-family: var(--fonte-titulo);
+    font-size: 3.5em;
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
+
+header > p{
+    font-family: var(--fonte-reserva);
+}
+
+p > a{
+    color: white;
+}
+
