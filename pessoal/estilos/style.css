@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
+
 @font-face {
-    font-family: 'croissant';
-    src: url(/desafios/des-cordel/fontes/CroissantOne-Regular.ttf) format(truetype);
+    font-family: 'nunito';
+    src: url(/pessoal/fontes/Nunito-Italic.ttf) format(trutype);
 }
 
 @font-face {
@@ -27,3 +28,7 @@
 }
 
 /*header*/
+
+header{
+    background-color: black;
+}
