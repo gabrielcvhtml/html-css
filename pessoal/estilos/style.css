@@ -23,15 +23,52 @@
 
 /*header*/
 
+html, body{
+    min-height: 100vh;
+}
+
 header{
     background-color: black;
     color: white;
+    font-family: var(--fonte-titulo);
+    text-align: center;
 }
 
 header > h1{
     padding-top: 30px;
+    font-size: 2.5em;
+    font-variant: small-caps;
 }
 
 header > p {
     padding-bottom: 30px;
+    text-decoration: underline;
+}
+
+/*MAIN*/
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.5em;
+    padding-left: 10px;
+    
+}
+
+section > p{
+    width: 450px;
+    box-shadow: 2px 2px 3px black ;
+    font-family: var(--fonte-texto);
+    font-style: italic;
+}
+
+section.fundo{
+    background-color: rgba(168, 165, 165, 0.507);
+}
+
+footer > p{
+    text-align: center;
+    padding: 15px;
+    font-family: var(--fonte-titulo);
+    font-weight: bolder;
 }
